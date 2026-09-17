@@ -1,0 +1,4 @@
+claim_id,claimant_name,wallet_address,chain,amount,token
+BOUNTY-101,Ana Rivera,9XcJk1iugDhMxLRYHPGbJbDAWTLCJhdVGqyoDTyKyzBt,solana,250,USDC
+BOUNTY-102,Chen Wei,Arvwjs5hWFnYdAkJn2XzqVonG4Gr45WTV85qyPEhBAkV,solana,500,USDC
+BOUNTY-103,Luis Gomez,0x8366bCe3a2D379Dec7656D7A67015789FaF999f20,evm,100,USDG
