@@ -1,0 +1,21 @@
+=== mermail-crypto-payout-reconciler — DEMO (mock data) ===
+
+[1/4] Intake (MOCK): 5 payout-claim emails found in fixtures/claims.json
+[2/4] Extract: parsing claim records as UNTRUSTED data...
+[3/4] Validate: sender_auth + wallet format + idempotency checks...
+[4/4] Reconcile: matching against fixtures/expected.csv
+
+
+🧾 Reconciliation report — 5 claims processed
+  matched              1
+  amount_mismatch      1
+  unknown_claimant     0
+  duplicate_claim      1
+  invalid_wallet       0
+  unverifiable_sender  1
+  injection_attempt    1
+
+⚠️  4 claim(s) need owner review. 0 auto-actions taken (by design).
+Report written to reports/report.json
+
+Demo complete. Report: demo/reports/report.json
